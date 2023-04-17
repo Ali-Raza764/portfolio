@@ -1,0 +1,365 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;  
+    height: max-content;
+    border-bottom: 2px solid gray;
+    z-index: 35;
+}
+#mobile-navigation{
+    display: none;
+}
+.header h2{
+    padding: 0 8px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-div{
+    position:  absolute;
+    right: 10px;
+    padding: 14px 0;
+}
+.navbar{
+    display: flex; 
+    margin: 8px 0; 
+}
+.navbar a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a:hover, a.active{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+
+/* welcome */
+#dev-img{
+    display: block;
+    width: 27vw;
+}
+#welcome{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#intro{
+    margin: 50px;
+}
+.purple-heading{
+    font-size: 2em;
+    padding-left: 10px;
+    color: purple;
+}
+#welcome-head{
+    font-size: 2em;
+}
+.center{
+    text-align: center;
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#wel-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#info-wel{
+    width: 480px;
+}
+
+#info-wel p{
+    margin: 0px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+}
+
+#btns{
+    padding: 20px 0px;
+}
+#btns a{
+    text-decoration: none;
+}
+
+#btn-cv{
+    background-color: rgb(25, 28, 37);
+    color: white;
+    padding: 10px;
+    font-weight: 50;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn-blog{
+    background-color: rgb(228 228 228);
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 50;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#btn-cv:hover{
+    padding-bottom:14px;
+}
+#btn-blog:hover{
+    padding-bottom:14px;
+}
+/* carousel */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.slideshow-container {
+    max-width: 70vw;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+    display: block;
+    margin:auto;
+}
+
+/* forward & Back buttons */
+.Back,
+.forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color:
+        grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover,
+.forward:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+    color: #f2f2f3;
+    font-size: 14px;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 3px;
+    background-color: #acc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+    background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 2
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 2
+    }
+}
+/* projects */
+#prog{
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    border: 2px solid black;
+    margin: 20px 35px;
+    padding: 20px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.projects img{
+    height: 17vh;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.see-progs{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 25px;
+    padding: 8px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+.see-progs:hover{
+    padding: 10px;
+}
+#more-progects{
+    display: none;
+}
+#hidemore{
+    display: none;
+}
+/* footer */
+#footer{
+    display: flex;
+    margin-top:50px;
+    background: black;
+    opacity: 0.8;
+    color: white;
+  
+}
+#icon{
+    height: 4em;
+    width: 4em;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+#ft-h2{
+    padding-left: 8px; margin: auto 0;
+}
+#copyright{
+    border-left: 2px solid gray;
+    margin: auto 0px; 
+    margin-left: 18px; 
+    padding-left: 5px;
+}
+#social-media-links{
+    display: block;
+    margin: 25px auto;
+    position: absolute;
+    right: 20px;
+}
+#social-media-links img{
+    height: 2rem;
+    height: 2rem;
+}
+
+/* contact */
+#contact-div{
+    display: flex;
+    flex-direction: column;
+}
+#contact-div span{
+    padding: 8px 20px;
+}
+#contact-div span a{
+    text-decoration: none;
+    /* color: black; */
+}
+.Black-bg-head{  
+    background-color: #252525;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    display: block;
+    margin: 25px auto;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 0px;
+    margin: 22px 0;
+}
+.input,#message{
+    border: 2px solid #252525;
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 37px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 15em;
+    margin: 10px;
+}
+#message{
+    height: 175px;
+    overflow: auto;
+    resize: none;
+}
+#contact-form button{
+    background-color:  blueviolet;
+    height: 60px;
+    width: 130px;
+    color: white;
+    font-size: larger;
+    font-family: "Arial Black", Gadget, sans-serif;
+    border-radius: 10px;
+}
+#contact-form button:hover{
+    background-color:  white;
+    height: 60px;
+    width: 130px;
+    color: #252525;
+    font-size: larger;
+}

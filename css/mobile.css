@@ -1,0 +1,94 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar */
+.header{
+    height: max-content;
+}
+#nav-div{
+    width: 65vw;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    margin-top: 336px;
+    align-self: center;
+    display: none;
+}
+.navbar{
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 11px;
+    border: 1px solid gray;
+
+}
+
+.navbar  a{
+    margin-top: 8px;
+    padding: .5rem 1rem;
+}
+#mobile-navigation{
+    background: url('../images/mobile-menu.png') no-repeat 0 0;
+    display: block;
+	height: 50px;
+    margin: 7px 0;
+    width: 50px;
+    position: absolute;
+    right: 5px;
+}
+/* welcome */
+#dev-img {
+    display: block;
+    width: 14rem;
+    height: 14rem;
+}
+/* carosel */
+.slideshow-container {
+    margin: 10px auto;
+}
+
+/* welcome */
+#info-wel {
+    padding: 10px;
+    width: auto;
+}
+#info-wel p {
+    margin: 0px 0;
+    font-size: 16px;
+    margin: 10px;
+}
+#welcome-head{
+    margin: 0 0;
+    margin-top: 10px;
+}
+.purple-heading{
+    margin: 0 0;
+    margin-bottom: -8px;
+}
+/* courses */
+.cr-img{
+    width: 16em;
+    height: 12em;
+
+}
+.cr-detail{
+    width: 16em;
+}
+/* projects */
+.projects{
+    flex-wrap: wrap-reverse;
+}
+/* .prog-image{
+    display: none;
+} */
+/* footer */
+#social-media-links{
+    margin: 10px 0px;
+    text-align: center;
+    position: static;
+}
