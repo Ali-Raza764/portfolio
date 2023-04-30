@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/personal/developer-pic-1.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/tab.css" media="screen and (max-width:950px)">
     <link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width:720px)">
@@ -17,31 +18,51 @@
         <div id="nav-div">
             <nav class="navbar">
                 <a href="../index.html">Home</a>
-                <a href="projects" >Projects</a>
-                <a href="blog.html"class="active">Blog</a>
-                <a href="contactus.html">Contact US</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contactus.html" class="active">Contact US</a>
                 <a href="about.html">About</a>
             </nav>
         </div>
 
         <a id="mobile-navigation">
-            
+
         </a>
     </header>
-    <h1 class="Black-bg-head"><span>Contact Us</span></h1>
-    <div id="contact-div" class="center-text">
-        <span style="font-size: 1.2rem;">Email: <a href="">alikillerno@gmail.com</a></span>
-        <span style="font-size: 1.2rem;">Contact number: <a href="">03136332839</a></span>
-        <span style="font-size: 1.2rem;">Location: Village and post office Dobather Mohalllah Nakka Bagh
-            Abbottabad</span>
+    <div class="container">
+        <div class="form-container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="image-container">
+            <img src="../images/carousel/car-2.jpg" alt="placeholder image">
+            <p id="more-info-contact">
+                <span>
+                    Email:<a href="#">alikillerno@gmail.com</a>
+                </span>
+                <span>Abottabad Pakistan.</span>
+                <span>Phone: 03136332839</span>
+            </p>
+        </div>
+
+        <div class="map-container">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/place/Abbottabad" width="100%" height="100%" frameborder="0"
+                    style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
     </div>
-    <form id="contact-form" action="#">
-        <input class="input" type="text" name="name" id="sender-name" required placeholder="Enter Your Name">
-        <input class="input" type="text" name="phonenumber" id="phone" required placeholder="Phone">
-        <input class="input" type="email" name="email" id="sender-email" required placeholder="Email">
-        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-        <button type="submit" name="send">Send</button>
-    </form>
 
     <section id="footer">
         <img src="../images/icon.png" id="icon" alt="icon" style="margin: 10px;">
@@ -50,7 +71,7 @@
             Copyright&copy; 2023 all rights reserved.
         </span>
         <div id="social-media-links">
-            <a href=""> 
+            <a href="">
                 <img src="../images/icons/facebook.png" alt="facebook">
             </a>
 
@@ -63,11 +84,11 @@
             </a>
 
             <a href="">
-               <img src="../images/icons/whatsapp.png" alt="whatsapp"> 
-            </a>     
+                <img src="../images/icons/whatsapp.png" alt="whatsapp">
+            </a>
         </div>
     </section>
 </body>
-<script src="../script/mobile.js"></script>
+<script src="mobile-pages.js"></script>
 
 </html>

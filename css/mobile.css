@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
+
 /* navbar */
 .header{
     height: max-content;
@@ -23,6 +24,7 @@ body{
     justify-content: center;
     align-content: center;
     background-color: rgba(255, 255, 255, .9);
+    box-shadow: 0px 2px 7px 0px rgb(0 0 0 / 20%);
     border-radius: 11px;
     border: 1px solid gray;
 
@@ -33,7 +35,7 @@ body{
     padding: .5rem 1rem;
 }
 #mobile-navigation{
-    background: url('../images/mobile-menu.png') no-repeat 0 0;
+    background: url('../images/navicons/mobile-menu.png') no-repeat 0 0;
     display: block;
 	height: 50px;
     margin: 7px 0;
@@ -41,12 +43,14 @@ body{
     position: absolute;
     right: 5px;
 }
+
 /* welcome */
 #dev-img {
     display: block;
     width: 14rem;
     height: 14rem;
 }
+
 /* carosel */
 .slideshow-container {
     margin: 10px auto;
@@ -70,22 +74,29 @@ body{
     margin: 0 0;
     margin-bottom: -8px;
 }
-/* courses */
-.cr-img{
-    width: 16em;
-    height: 12em;
 
-}
-.cr-detail{
-    width: 16em;
-}
 /* projects */
-.projects{
-    flex-wrap: wrap-reverse;
+.project{
+    width: 60vw;
 }
-/* .prog-image{
-    display: none;
-} */
+
+/* contact */
+.container{
+    width: auto;
+}
+.form-container{
+    text-align: center;
+    width: 65%;
+}
+.map-container{
+    width: 65vw;
+    text-align: center;
+}
+.image-container img {
+    width: 65vw;
+    margin-bottom: 20px;
+}
+
 /* footer */
 #social-media-links{
     margin: 10px 0px;

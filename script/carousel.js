@@ -11,6 +11,17 @@ function currentSlide(n) {
   SlideShow(slidePosition = n);
 }
 
+let n = 0
+setInterval(() => {
+  n += 1
+  if (n==4) {
+    n=1
+  }
+  currentSlide(n)
+  
+}, 3000);
+
+
 function SlideShow(n) {
   var i;
   var slides = document.getElementsByClassName("Containers");

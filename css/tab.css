@@ -12,6 +12,12 @@
     text-align: center;
     margin: 0px auto ;
 }
+
+/* projects */
+.project{
+    width: 50vw;
+}
+
 /* footer */
 #footer{
     display: flex;
